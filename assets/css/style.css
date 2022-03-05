@@ -1,0 +1,124 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    transition: all 250ms ease-in-out;
+}
+
+@font-face {
+    font-family: 'balsamiq';
+    src: url("../fonts/Balsamiq_Sans/BalsamiqSans-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Dancing";
+    src: url("../fonts/Dancing_Script/DancingScript-VariableFont_wght.ttf");
+}
+
+@font-face {
+    font-family: "Hindi-madurai";
+    src: url("../fonts/Hind_Madurai/HindMadurai-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Syne-mono";
+    src: url("../fonts/Syne_Mono/SyneMono-Regular.ttf");
+}
+
+:root {
+    /* ------------FONT-FAMILIES------------ */
+    --ff-primary: "balsamiq";
+    --ff-secondary: "Dancing";
+    --ff-ragular: "Hindi-madurai";
+    --ff-basic: "Syne-mono";
+    /* ------------FONT-SIZES------------ */
+    --regular: 16px;
+    --basic: 18px;
+    --madiun: 24px;
+    --lg: 32px;
+    --xl: 48px;
+    --xxl: 76px;
+    /* ------------COLOR------------ */
+    --color-primary: rgb(255, 94, 0);
+    --color-secondary: lightgreen;
+    --color-basic: rgb(139, 139, 139);
+    --color-regular: lightblue;
+    --color-dark: #0C0B0B;
+}
+
+/* ----------------FONT-FAMILI'S-COMMON-CLASSES-START---------------- */
+.ff-primary {
+    font-family: var(--ff-primary);
+}
+
+.ff-secondary {
+    font-family: var(--ff-secondary);
+}
+
+.ff-regular {
+    font-family: var(--ff-regular);
+}
+
+.ff-basic {
+    font-family: var(--ff-basic);
+}
+
+/* ----------------FONT-FAMILI'S-COMMON-CLASSES-END---------------- */
+
+/* ---------------------FONT-WEIGHT-CLASS'S-START--------------------- */
+.fw-light {
+    font-weight: 300;
+}
+
+.fw-regular {
+    font-weight: 400;
+}
+
+.fw-semibold {
+    font-weight: 600;
+}
+
+.fw-black {
+    font-weight: 900;
+}
+
+/* ---------------------FONT-WEIGHT-CLASS'S-END--------------------- */
+
+/* ----------------------------TYPOGRAPHY/COMMON-RE-USEING-CLASSES---------------------------- */
+.h-100vh {
+    min-height: 100vh;
+}
+
+.z-index-9 {
+    z-index: 9;
+}
+
+table,
+th,
+td {
+    border: 2px solid red;
+}
+
+/* SLIDER-PAGE-CSS */
+.my_slider>* :not(:last-child) {
+    margin-right: 1.9em;
+}
+
+.button {
+    background: orange;
+    border: red solid 3px;
+    color: white;
+    border-radius: 22px;
+    padding: 8px 19px;
+}
+
+.button:hover {
+    background: rgb(243, 171, 37);
+    border: red solid 3px;
+    color: white;
+    border-radius: 22px;
+    padding: 8px 19px;
+}
